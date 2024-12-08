@@ -1,0 +1,39 @@
+u {
+    color: black;
+    text-align: center;
+}
+h1{
+   color:darkgreen;
+
+}
+body{
+    background-color:  hwb(51 64% 14% / 0.79);
+}
+address{
+    background-color:;
+    color:black;
+    font-size: 1.0em; /* Adjust this value as needed */
+            font-style: normal; /* Remove italics if preferred */
+            line-height: 1.2; 
+}
+#element{
+text-align: center;
+color:black;
+background-color: aquamarine;
+}
+#element1{
+    background-color: rgb(227, 120, 120);
+}
+#hi{
+    background-color: burlywood;
+}
+#hello{
+    background-color: cadetblue;
+}
+#cert{
+    background-color: rgb(156, 211, 101);
+}
+#dec{
+    background-color:rgb(219, 154, 76);
+}
+
