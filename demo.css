@@ -1,0 +1,333 @@
+
+      body {
+        background-color: #535334;
+        width: 100%;
+        height: 100%;
+      }
+
+      .php {
+        display: inline-block;
+        background-color: rgb(255, 192, 199);
+        width: 564px;
+        height: 220px;
+        text-align: center !important;
+        padding: 24px 0px 0px 0px;
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-left: 45px;
+      }
+      .php1 {
+        border: none;
+        height: 36px;
+        width: 150px;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: #282a35;
+        color: white;
+      }
+      .php:hover {
+        background-color: black;
+        color: rgb(205, 134, 134);
+        border: 2px solid black;
+      }
+
+    
+
+      .jQuery {
+        display: inline-block;
+        background-color: rgb(187, 228, 121);
+        width: 564px;
+        height: 220px;
+        text-align: center !important;
+        padding: 24px 0px 0px 0px;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-left: 50px;
+      }
+      #jQuery {
+        border: none;
+        height: 36px;
+        width: 150px;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: #282a35;
+        color: white;
+      }
+      #jQuery:hover {
+        background-color: black;
+        color: white;
+        border: 2px solid black;
+      }
+
+     
+
+      #java {
+        display: inline-block;
+        background-color: rgb(78, 184, 233);
+        width: 564px;
+        height: 220px;
+        text-align: center !important;
+        padding: 24px 0px 0px 0px;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-left: 45px;
+      }
+      .java {
+        border: none;
+        height: 36px;
+        width: 150px;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: #282a35;
+        color: white;
+      }
+      .java:hover {
+        background-color: black;
+        color: white;
+        border: 2px solid black;
+      }
+
+      #c {
+        display: inline-block;
+        background-color: rgb(150, 201, 169);
+        width: 564px;
+        height: 220px;
+        text-align: center !important;
+        padding: 24px 0px 0px 0px;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-left: 45px;
+      }
+      .c {
+        border: none;
+        height: 36px;
+        width: 150px;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: #282a35;
+        color: white;
+      }
+      .c:hover {
+        background-color: black;
+        color: rgb(200, 136, 136);
+        border: 2px solid black;
+      }
+
+      
+
+      #w3 {
+        display: inline-block;
+        background-color: rgb(150, 212, 212);
+        width: 564px;
+        height: 220px;
+        text-align: center !important;
+        padding: 24px 0px 0px 0px;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-left: 45px;
+      }
+      .w3 {
+        border: none;
+        height: 36px;
+        width: 150px;
+        border-radius: 15px;
+        cursor: pointer;
+        background-color: #282a35;
+        color: white;
+      }
+      .w3:hover {
+        background-color: rgb(110, 45, 45);
+        color: white;
+        border: 2px solid black;
+      }
+
+    
+
+      #Bootstrap {
+        display: inline-block;
+        background-color: rgb(231, 233, 235);
+        width: 564px;
+        height: 220px;
+        text-align: center !important;
+        padding: 24px 0px 0px 0px;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-left: 45px;
+      }
+      .Bootstrap {
+        border: none;
+        height: 36px;
+        width: 150px;
+        border-radius: 15px;
+        cursor: pointer;
+        background-color: #282a35;
+        color: white;
+      }
+      .Bootstrap:hover {
+        background-color: black;
+        color: white;
+        border: 2px solid black;
+      }
+      #c1 {
+        display: inline-block;
+        color: black;
+        background-color: rgb(234, 177, 185);
+        width: 564px;
+        height: 125px;
+        text-align: center !important;
+        padding: 24px 0px 0px 0px;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-left: 45px;
+      }
+      #c1:hover {
+        background-color: rgb(230, 157, 166);
+
+      }
+      #c2 {
+        display: inline-block;
+        color: black;
+        background-color: rgb(234, 224, 152);
+        width: 564px;
+        height: 125px;
+        text-align: center !important;
+        padding: 24px 0px 0px 0px;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-left: 45px;
+      }
+      #c2:hover {
+        background-color:rgb(236, 224, 132);
+
+      }
+      .r {
+        display: inline-block;
+        color: black;
+        background-color: rgb(223, 217, 216);
+        width: 254px;
+        text-align: center;
+        height: 95px;
+        text-align: center !important;
+        padding: 24px 0px 0px 0px;
+        border-radius: 5px;
+        margin-top: 50px;
+        margin-left: 45px;
+      }
+      .Kotlin {
+        display: inline-block;
+        color: black;
+        background-color: rgb(218, 228, 222);
+        width: 254px;
+        text-align: center;
+        height: 95px;
+        text-align: center !important;
+        padding: 24px 0px 0px 0px;
+        border-radius: 5px;
+        margin-top: 50px;
+        margin-left: 45px;
+      }
+      .Kotlin:hover {
+        background-color:rgb(224, 247, 233);
+
+      }
+      .Node {
+        display: inline-block;
+        color: black;
+        background-color: rgb(139, 195, 196);
+        width: 254px;
+        text-align: center;
+        height: 95px;
+        text-align: center !important;
+        padding: 24px 0px 0px 0px;
+        border-radius: 5px;
+        margin-top: 50px;
+        margin-left: 45px;
+      }
+      .Node:hover {
+        background-color:rgb(156, 225, 226);
+
+      }
+      .React {
+        display: inline-block;
+        color: black;
+        background-color: rgb(234, 177, 185);
+        width: 254px;
+        text-align: center;
+        height: 95px;
+        text-align: center !important;
+        padding: 24px 0px 0px 0px;
+        border-radius: 5px;
+        margin-top: 50px;
+        margin-left: 45px;
+      }
+      .React:hover {
+        background-color:rgb(255, 191, 198);
+
+      }
+
+      .JSON {
+        display: inline-block;
+        color: black;
+        background-color: rgb(234, 224, 152);
+        width: 254px;
+        text-align: center;
+        height: 95px;
+        text-align: center !important;
+        padding: 24px 0px 0px 0px;
+        border-radius: 5px;
+        margin-top: 50px;
+        margin-left: 45px;
+      }
+      .JSON:hover {
+        background-co:rgb(250, 242, 180);
+
+      }
+
+      .Vue {
+        display: inline-block;
+        color: black;
+        background-color: rgb(223, 217, 216);
+        width: 254px;
+        text-align: center;
+        height: 95px;
+        text-align: center !important;
+        padding: 24px 0px 0px 0px;
+        border-radius: 5px;
+        margin-top: 50px;
+        margin-left: 45px;
+      }
+      .Vue:hover {
+        background-color:rgb(240, 237, 221);
+
+      }
+      .MySQL {
+        display: inline-block;
+        color: black;
+        background-color: rgb(200, 219, 208);
+        width: 254px;
+        text-align: center;
+        height: 95px;
+        text-align: center !important;
+        padding: 24px 0px 0px 0px;
+        border-radius: 5px;
+        margin-top: 50px;
+        margin-left: 45px;
+      }
+      .MySQL:hover {
+        background-color:rgb(216, 240, 226);
+
+      }
+      .XML {
+        display: inline-block;
+        color: black;
+        background-color: blanchedalmond;
+        width: 254px;
+        text-align: center;
+        height: 95px;
+        text-align: center !important;
+        padding: 24px 0px 0px 0px;
+        border-radius: 5px;
+        margin-top: 50px;
+        margin-left: 45px;
+      }
+   
