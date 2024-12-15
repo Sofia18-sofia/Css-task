@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corner Images Layout</title>
+    <style>
+        .container {
+            position: relative;
+            border: 5px solid black;
+            height: 60vh;
+            border-radius: 10px;
+            margin: 20px auto; /* Center the container horizontally */
+            width: 60vw; /* Adjust width for better responsiveness */
+        }
+        .container > img {
+            position: absolute;
+        }
+        .el1 {
+            top: 10%;
+            right: 0;
+            transform: translate(50%, -50%); /* Adjusted for border corner alignment */
+        }
+        .el2 {
+            top: 10%;
+            left: 0;
+            transform: translate(-50%, -50%); /* Adjusted for border corner alignment */
+        }
+        .el3 {
+            bottom: 0;
+            right: 0;
+            transform: translate(50%, 50%); /* Adjusted for border corner alignment */
+        }
+        .el4 {
+            bottom: 0;
+            left: 0;
+            transform: translate(-50%, 50%); /* Adjusted for border corner alignment */
+        }
+        .el5 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhdm6_UDthcB3J2SPGziskA-KuUOtfGqf0Yg&s" class="el1" width="120px" alt="Image 1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkPjJD3mdTVj5v5EMMo51r0kuvb9Kwbeg-RflxawjRw18W9BboNcVOt5BARcHSjqoylUM&usqp=CAU" class="el2" width="130px" alt="Image 2">
+        <img src="https://i.pinimg.com/originals/f3/2a/3e/f32a3e58a15a94f564da37600995d0d6.gif" class="el3" width="200px" alt="Image 3">
+        <img src="https://upload.wikimedia.org/wikipedia/en/3/3f/NobitaNobi.png" class="el4" width="140px" alt="Image 4">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVARGRf4m5yFJYwBaMom3TX9PQ1iUEKzzJlg&s" class="el5" width="200px" alt="Image 5">
+    </div>
+</body>
+</html>
