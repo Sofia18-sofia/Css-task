@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<style>
+    body{
+        border:2px solid black;
+        width: 500px;
+        height: 30vh;
+        padding-bottom: 0px;
+        /* margin: 10px 20px 10px 10px; */
+        transform: translate(100%, 70%);
+    }
+  .container{
+    display: grid;
+   grid-template-areas: 
+   "head nav nav art"
+   "head asi sec mai"
+   "head sec2 foot mai"
+   ;
+    
+    
+  }
+  .child1{
+   
+    border: 1px solid blue;
+    padding:10px;
+    margin:10px;
+    background-color: greenyellow;
+    grid-area: head;
+  }
+  .child2{
+    border: 1px solid blue;
+    padding:10px;
+    margin:10px;
+    grid-area: nav;
+    background-color: greenyellow;
+
+  }
+  .child3{
+    background-color: rgb(237, 133, 133);
+    border: 1px solid blue;
+    padding:10px;
+    margin:10px;
+    grid-area: art;
+
+  }
+  .child4{
+    border: 1px solid blue;
+    padding:10px;
+    margin:10px;
+    grid-area: asi;
+    background-color: orange;
+
+  }
+  .child5{
+    border: 1px solid blue;
+    padding:10px;
+    margin:10px;
+    grid-area: sec;
+    background-color: rgb(228, 120, 120);
+
+  }
+  .child6{
+    border: 1px solid blue;
+    padding:10px;
+    margin:10px;
+    grid-area: mai;
+    background-color: greenyellow;
+
+  }
+  .child7{
+    border: 1px solid blue;
+    padding:10px;
+    margin:10px;
+    grid-area: sec2;
+    background-color: rgb(232, 110, 110);
+
+  }
+  .child8{
+    border: 1px solid blue;
+    padding:10px;
+    margin:10px;
+    grid-area: foot;
+    background-color: orange;
+
+  }
+ 
+  
+</style>
+<body>
+    <div class="container">
+        <div class="child1 animate__animated animate__flash">Header</div>
+        <div class="child2" >Navbar</div>
+        <div class="child3">Article</div>
+        <div class="child4">Aside</div>
+        <div class="child5">section1</div>
+        <div class="child6">Main</div>
+        <div class="child7">section2</div>
+        <div class="child8">Footer</div>
+    </div>
+</body>
+</html>

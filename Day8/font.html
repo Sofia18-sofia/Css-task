@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow and Font Families</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Vinyl&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #333;
+            box-shadow:2px 2px 20px 3px lightcoral inset;
+            padding: 10px;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            width: 200px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px;
+            background-color:lightsalmon;
+            /*  */
+            font-size: 16px;
+
+        }
+        .card1{
+            width: 200px;
+            height: 200px;
+            border-radius: 4px;
+            background-color:lightgray;
+        }
+        .card2{
+            width: 200px;
+            height: 200px;
+            border-radius: 4px;
+            background-color:lightcyan;
+
+        }
+        .card1:hover {
+            font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+  transform: scale(1.05);
+        }
+
+        .card2:hover {
+            font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  transform: scale(1.05);
+            font-family: 'Playball', cursive;
+        }
+
+        .card:hover {
+            font-family: 'Oswald', sans-serif;
+        }
+
+        .card:hover {
+            font-family: 'Kanit', sans-serif;
+        }
+
+        .card:hover {
+            font-family: 'Great Vibes', cursive;
+        }
+
+        .card:hover {
+            font-family: 'Lobster', cursive;
+        }
+
+        .card:hover {
+            font-family: 'Rowdies', cursive;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 2px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>Box Shadow and Font Families</h1>
+    <div class="card-container">
+        <div class="card1">Josefin Slab</div>
+        <div class="card2">layball</div>
+        <div class="card">Oswald</div>
+        <div class="card">kanit</div>
+        <div class="card">Great Vibes</div>
+        <div class="card">Lobster</div>
+        <div class="card">Rowdies</div>
+    </div>
+</body>
+</html>

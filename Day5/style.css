@@ -1,0 +1,111 @@
+
+
+.container {
+    position: relative; 
+    border: 5px solid black;
+    border-radius: 5px;
+    height: 80vh;
+    width: 20%;
+    margin: auto;
+    top: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDDi245qv8qMBos3CvqdDSDy8IywbYYu2Lng&s');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.parent {
+    position: fixed;
+    background-color: rgb(233, 164, 215);
+    height: 30px;
+    width: 18.0%;
+    padding: 10px;
+    z-index: 5;
+}
+
+img {
+    position: absolute;
+    left: 2%;
+    width: 25px;
+    border-radius: 25px;
+}
+
+.Date {
+    text-align: center;
+    position: sticky;
+    top: 50px;
+}
+
+.dt {
+    background-color: rgb(238, 180, 232);
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+span {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 2px;
+    color: #000;
+    padding: 3px 5px;
+    display: inline-block;
+}
+
+.rightmsg {
+    text-align: right;
+}
+
+#ic, #ico, #ic1 {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    z-index: 1;
+}
+
+#ic {
+    left: 70%;
+}
+
+#ico {
+    left: 80%;
+}
+
+#ic1 {
+    left: 90%;
+}
+
+.msg {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(233, 146, 209);
+    height: 30px;
+    width: 100%;
+    padding: 10px;
+    z-index: 10;
+}
+
+input {
+    border-radius: 20px;
+    width: 80%;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+
+i {
+    color: white;
+}
+
+.icon {
+    position: absolute;
+    color: white;
+}
+
+.a1 {
+    position: absolute;
+    left: 20%;
+    margin-top: -10px;
+}

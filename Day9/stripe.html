@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f9f9f9;
+        }
+        .main-container {
+            border: 2px solid #ccc; 
+            border-radius: 10px;
+            padding: 20px;
+            background-color: #fff;
+            width: 90%;
+            max-width: 1200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .png {
+            width: 60px;
+        }
+        .childa {
+            display: flex;
+            gap: 10px;
+        }
+        .parent {
+            display: flex;
+            justify-content: space-evenly;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .child1 {
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            flex: 1;
+            max-width: 30%;
+            border-radius: 8px;
+            background-color: #fafafa;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .child1:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+        .childb {
+            margin: 10px 0;
+            font-size: 0.9em;
+            color: #555;
+        }
+        .childc {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.85em;
+            color: #333;
+        }
+        h1 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        p {
+            margin: 5px 0;
+            color: #777;
+        }
+        .childc div:last-child {
+            color: #007BFF;
+            cursor: pointer;
+        }
+        .childc div:last-child:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="parent">
+            <div class="child1">
+                <div class="childa">
+                    <img src="s.png" class="png">
+                    <div>
+                        <h1>Stripe</h1>
+                        <p>Payment Services</p>
+                        <div style="color: green">****</div>
+                    </div>
+                </div>
+                <div class="childb">
+                    Get more context on your users with Stripe data inside our platform.
+                </div>
+                <div class="childc">
+                    <div>Installed 172 times</div>
+                    <div>View</div>
+                </div>
+            </div>
+
+            <div class="child1">
+                <div class="childa">
+                    <img src="mail.png" class="png">
+                    <div>
+                        <h1>Mailchimp</h1>
+                        <p>Project Management</p>
+                        <div style="color: green">****</div>
+                    </div>
+                </div>
+                <div class="childb">
+                    Capture and sync subscribers from your Mailchimp platform to ours with ease.
+                </div>
+                <div class="childc">
+                    <div>Installed 1234 times</div>
+                    <div>View</div>
+                </div>
+            </div>
+
+            <div class="child1">
+                <div class="childa">
+                    <img src="drop.png" class="png">
+                    <div>
+                        <h1>Dropbox</h1>
+                        <p>File Management</p>
+                        <div style="color: green">****</div>
+                    </div>
+                </div>
+                <div class="childb">
+                    Use Dropbox to sync your photos to our platform and share it with others.
+                </div>
+                <div class="childc">
+                    <div>Installed 1234 times</div>
+                    <div>View</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="parent">
+            <div class="child1">
+                <div class="childa">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN8QiDEkZ_-KQSmcHdho11ARvMlolZKY4efw&s" class="png">
+                    <div>
+                        <h1>Shopify</h1>
+                        <p>Ecommerce</p>
+                        <div style="color: green">****</div>
+                    </div>
+                </div>
+                <div class="childb">
+                    Sell your items with ease without having a website using our free platform.
+                </div>
+                <div class="childc">
+                    <div>Installed 1234 times</div>
+                    <div>View</div>
+                </div>
+            </div>
+
+            <div class="child1">
+                <div class="childa">
+                    <img src="Atl.png" class="png">
+                    <div>
+                        <h1>Atlassian</h1>
+                        <p>Project Management</p>
+                        <div style="color: green">****</div>
+                    </div>
+                </div>
+                <div class="childb">
+                    Developing products for developers, project managers, and architects.
+                </div>
+                <div class="childc">
+                    <div>Installed 345 times</div>
+                    <div>View</div>
+                </div>
+            </div>
+
+            <div class="child1">
+                <div class="childa">
+                    <img src="force.png" class="png">
+                    <div>
+                        <h1>Salesforce</h1>
+                        <p>Project Management</p>
+                        <div style="color: green">****</div>
+                    </div>
+                </div>
+                <div class="childb">
+                    Developing products for developers, project managers, and architects.
+                </div>
+                <div class="childc">
+                    <div>Installed 345 times</div>
+                    <div>View</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
