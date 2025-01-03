@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotating Circle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: Arial;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                      url('https://blackwhite.pictures/media/t/1204/music-festival-crowd-royalty-free-stock-photo-and-image-2911.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.music-player {
+    text-align: center;
+    position: relative;
+    width: 300px;
+}
+
+.rotating-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+    animation: rotate 5s linear infinite;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.rotating-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.music-bars {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 80px;
+    margin-bottom: 20px;
+    /* color: aqua; */
+}
+
+.bar1 {
+    width: 10px;
+    height: 30px;
+    background: white;
+    animation: bounce 1s infinite ease-in-out;
+    animation-delay: 0.2s;
+   
+}
+
+.bar2 {
+    width: 10px;
+    height: 30px;
+    background: white;
+    animation: bounce 1s infinite ease-in-out;
+    animation-delay: 0.4s;
+}
+
+.bar3 {
+    width: 10px;
+    height: 30px;
+    background: white;
+    animation: bounce 1s infinite ease-in-out;
+    animation-delay: 0.6s;
+}
+
+.bar4{
+    width: 10px;
+    height: 30px;
+    background: white;
+    animation: bounce 1s infinite ease-in-out;
+    animation-delay: 0.8s;
+}
+.bar5{
+    width: 10px;
+    height: 30px;
+    background: white;
+    animation: bounce 1s infinite ease-in-out;
+}
+.bar6{
+    width: 10px;
+    height: 30px;
+    background: white;
+    animation: bounce 1s infinite ease-in-out;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        height: 20px;
+    }
+    50% {
+        height: 90px;
+    }
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+    outline: none;
+}
+</style>
+<body>
+    <!-- <div class="img"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5_pobESNAO6WuQV3iCf5CUVSVlJAwCzj2Qg&s"></div> -->
+    <div class="music-player">
+        <div class="rotating-circle">
+            <img src="ranbi.png" alt="Profile Image">
+        </div>
+        <div class="music-bars">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <div class="bar4"></div>
+            <div class="bar5"></div>
+            <div class="bar6"></div>
+        </div>
+        <audio controls>
+            <source src="matlabihoj_ORqyQpgd.mp3" type="audio/mpeg">
+      
+        </audio>
+    </div>
+</body>
+</html>
